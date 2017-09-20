@@ -1,0 +1,105 @@
+﻿#allPage {
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('../img/Template/bg1.jpg');
+	background-repeat: repeat;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1000px;
+}
+#content {
+	padding: 10px;
+	margin: auto auto 10px 135px;
+	background-repeat: inherit;
+	height: 1250px;
+	position: absolute;
+	z-index: 3;
+	width: 1000px;
+	top: 390px;
+	background-color: #C0C0C0;
+}
+#nav1 {
+	border-style: outset;
+	border-color: #000000;
+	background-image: url('../img/Template/bg3.jpg');
+	z-index: 1;
+	position: absolute;
+	top: 350px;
+	text-align: center;
+	color: #000099;
+	font-weight: bolder;
+	text-transform: none;
+	font-variant: normal;
+	font-size: large;
+	margin-right: auto;
+	margin-left: auto;
+	color: #3333CC;
+	width: 1150px;
+	height: 25px;
+}
+#nav2 {
+	width: 130px;
+	height: 450px;
+	position: fixed;
+	z-index: 2;
+	top: 390px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	text-align: center;
+	float: none;
+	margin-bottom: 10px;
+}
+#footer {
+	margin: 1300px auto 5px auto;
+	border-style: outset;
+	border-color: #000000;
+	text-align: left;
+	position: absolute;
+	height: 70px;
+	z-index: 4;
+	background-image: url('../img/Template/bg3.jpg');
+	color: #3333CC;
+	width: 1150px;
+	font-weight: bold;
+	font-size: medium;
+}
+#icon1 {
+	float: left;
+}
+#body {
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+}
+#topArrow {
+	float: none;
+	position: fixed;
+	right: 5px;
+	top: 330px;
+	bottom: auto;
+	margin: 30px 5px auto auto;
+	left: auto;
+	visibility: visible;
+}
+#banner {
+	width: 1150px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	min-width: 160px;
+	box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+	padding: 2px;
+	z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

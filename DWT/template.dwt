@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<!-- #BeginEditable "doctitle" -->
+<title>Template</title>
+<!-- #EndEditable -->
+<!-- #EndEditable -->
+<link href="StyleSheet/DollhouseStyleSheet4Template.css" rel="stylesheet" type="text/css">
+<link href="StyleSheet/BasicFonts.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
+
+</head>
+
+
+
+
+
+<body id="allPage" onload="FP_preloadImgs(/*url*/'img/Buttons/button2E.jpg',/*url*/'img/Buttons/button2F.jpg',/*url*/'img/Buttons/button31.jpg',/*url*/'img/Buttons/button32.jpg',/*url*/'img/Buttons/button3E.jpg',/*url*/'img/Buttons/button3F.jpg',/*url*/'img/Buttons/button41.jpg',/*url*/'img/Buttons/button42.jpg',/*url*/'img/Buttons/button44.jpg',/*url*/'img/Buttons/button45.jpg',/*url*/'img/Buttons/button47.jpg',/*url*/'img/Buttons/button48.jpg')">
+
+
+<div id="header">
+	<div id="banner">
+		<img alt="Dollhouse Banner" height="375" src="../img/Homepage/toyota-gt86-red-car-on-road-website-header1.jpg" width="1280">
+	</div>
+	<div id="nav1"  >
+		<a class="link" href="Home.html">Home</a> | 
+		<a class="link" href="Gallery1.html">Gallery</a> | 
+		<a class="link" href="videos.html">Videos</a> |
+		<a class="link" href="Switchboard.html">Switchboard</a> | 
+		<a class="link" href="sitemap,credit.html">About Us</a> | 
+		<a class="link" href="contact_us.html">Contact Us</a>
+	</div>
+</div>
+<div id="body">
+<div id="nav2">
+	<a href="Home.html">
+	<img id="img1" alt="Home" height="34" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/Buttons/button2F.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/Buttons/button2D.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'img/Buttons/button2E.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'img/Buttons/button2E.jpg')" src="img/Buttons/button2D.jpg" style="border: 0" width="170"><!-- MSComment="ibutton" fp-style="fp-btn: Brick Column 5; fp-font-style: Bold; fp-font-size: 11; fp-font-color-hover: #00FF00; fp-font-color-press: #008000" fp-title="Home" --></a><br>
+	<a href="Furniture.html">
+	<img id="img2" alt="Furniture" fp-style="fp-btn: Brick Column 5; fp-font-style: Bold; fp-font-size: 11; fp-font-color-hover: #00FF00; fp-font-color-press: #008000" fp-title="Furniture" height="34" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'img/Buttons/button32.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'img/Buttons/button30.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'img/Buttons/button31.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'img/Buttons/button31.jpg')" src="img/Buttons/button30.jpg" style="border: 0" width="170"></a><a href="Decorations.html"><img id="img3" alt="Decorations" fp-style="fp-btn: Brick Column 5; fp-font-style: Bold; fp-font-size: 11; fp-font-color-hover: #00FF00; fp-font-color-press: #008000" fp-title="Decorations" height="34" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'img/Buttons/button3F.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'img/Buttons/button3D.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'img/Buttons/button3E.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'img/Buttons/button3E.jpg')" src="img/Buttons/button3D.jpg" style="border: 0" width="170"></a><br>
+	<a href="Animalsplants.html">
+	<img id="img4" alt="Animals, Plant" fp-style="fp-btn: Brick Column 5; fp-font-style: Bold; fp-font-size: 11; fp-font-color-hover: #00FF00; fp-font-color-press: #008000" fp-title="Animals, Plant" height="34" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'img/Buttons/button42.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'img/Buttons/button40.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'img/Buttons/button41.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'img/Buttons/button41.jpg')" src="img/Buttons/button40.jpg" style="border: 0" width="170"></a><br>
+	<a href="People.html">
+	<img id="img5" alt="People" fp-style="fp-btn: Brick Column 5; fp-font-style: Bold; fp-font-size: 11; fp-font-color-hover: #00FF00; fp-font-color-press: #008000" fp-title="People" height="34" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'img/Buttons/button45.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'img/Buttons/button43.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'img/Buttons/button44.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'img/Buttons/button44.jpg')" src="img/Buttons/button43.jpg" style="border: 0" width="170"></a><br>
+	<a href="specialities.html">
+	<img id="img6" alt="Special" fp-style="fp-btn: Brick Column 5; fp-font-style: Bold; fp-font-size: 11; fp-font-color-hover: #00FF00; fp-font-color-press: #008000" fp-title="Special" height="34" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'img/Buttons/button48.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'img/Buttons/button46.jpg')" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'img/Buttons/button47.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'img/Buttons/button47.jpg')" src="img/Buttons/button46.jpg" style="border: 0" width="170"></a><br>
+		</div>
+<!-- #BeginEditable "content" -->
+	<div id="content"  >
+	&nbsp;</div>
+<!-- #EndEditable -->
+</div>
+<div id="footer" >
+	<img id="icon1" alt="dollhouse_icon_transperant" height="64" src="img/Kitty_Friendly_Dollhouse-icon.png" width="64">
+	<a class="link" href="Home.html">Home</a> | 
+		<a class="link" href="Gallery1.html">Gallery</a> | 
+		<a class="link" href="videos.html">Videos</a> |
+		<a class="link" href="Switchboard.html">Switchboard</a> | 
+		<a class="link" href="sitemap,credit.html">About Us</a> | 
+		<a class="link" href="contact_us.html">Contact Us</a>
+<br>
+	<h6>&copy;&nbsp;Copyright Chung Bao Ngan Tran - Student Number : 300933344 - Centennial College - Semester : Winter 2017</h6>
+</div>
+
+</body>
+
+</html>
+</body>
+
+</html>

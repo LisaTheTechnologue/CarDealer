@@ -1,0 +1,55 @@
+﻿h2 {
+	clear: both;
+	color: #0066FF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	text-align: center;
+}
+h3 {
+	color: #CC6600;
+	font-style: italic;
+	font-variant: small-caps;
+	text-transform: capitalize;
+}
+/* unvisited link */
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+	color: #CC0099;
+	text-decoration: none;
+}
+
+/* mouse over link */
+a.link:hover {
+	color: #CC0000;
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	color: #808080;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF0066;
+}
+/*contact us : feedback image*/
+.feedback {
+	border-radius: 10px;
+	float: right;
+		margin-top: auto;
+	margin-right: 10px;
+	margin-left: auto;
+}
+h5 {
+	text-align: center;
+	font-style: italic;
+}

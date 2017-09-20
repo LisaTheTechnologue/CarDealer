@@ -1,0 +1,32 @@
+﻿label {
+	width: 250px;
+	float: left;
+	text-align: right;
+}
+
+legend {
+	color: #00CC00;
+	font-weight: bold;
+}
+input {
+	box-shadow: 2px 2px 2px #D3FFA8;
+	background-color: #D9FFD9;
+	border-radius: 10px;
+}
+fieldset {
+	border: medium double #000000;
+	margin-bottom: 15px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px #000000;
+	padding: 6px;
+}
+.table2 {
+width:450px;
+	text-align: center;
+}
+.table1{
+	text-align:left ;
+}
+td{
+	width:450px;
+}

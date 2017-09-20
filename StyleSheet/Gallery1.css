@@ -1,0 +1,39 @@
+﻿img 
+{
+ border-style: none; 
+}
+a 
+{
+	text-decoration: none;
+		}
+span 
+{
+ display: none; 
+}
+a:hover span 
+{
+ display: block; 
+ position: absolute; 
+ top: 10px; 
+ left: 300px; 
+ text-align: center; 
+}
+td
+{
+	padding: 10px;
+	width: 250px;
+	
+}
+tr 
+{
+padding: 10px;
+display: inline; float: left;
+	height: 150px;
+}
+table {
+	text-align: center;
+	width: 200px;
+}
+gallery {
+	position: relative;
+}

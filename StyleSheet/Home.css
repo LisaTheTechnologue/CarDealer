@@ -1,0 +1,48 @@
+﻿.figure {
+	float: right;
+	width: 290px;
+	margin: 50px;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: .8em;
+	padding: 5px;
+	
+	border: 1px solid #CCCCCC;
+	-webkit-transform: rotate(3deg);
+		   -moz-transform: rotate(3deg);
+		   -o-transform: rotate(3deg);
+		   -ms-transform: rotate(3deg);
+		   transform: rotate(3deg);
+		   -webkit-box-shadow: 5px 5px 5px #828282;
+           -moz-box-shadow: 5px 5px 5px #828282;
+           box-shadow: 5px 5px 5px #999966;
+
+}
+.figure:hover { -webkit-transform: rotate(0deg);
+		        -moz-transform: rotate(0deg);
+		        -o-transform: rotate(0deg);
+			    transform: rotate(0deg);
+                -webkit-transition: -webkit-transform .5s linear;
+                -moz-transition: -moz-transform .5s linear;
+                -o-transition: -o-transform .5s linear;
+                transition: transform .5s linear; }
+
+.table1{
+	float: left;
+		margin-bottom: 50px;
+	width: 450px;
+	height: auto;
+	clear: none;
+	margin-left: 100px;
+}
+blockquote {
+	font-weight: bolder;
+	font-style: italic;
+	font-size: large;
+	text-transform: capitalize;
+	font-variant: inherit;
+}
+q {
+	margin-left: 40px;
+	font-style: italic;
+}
